@@ -1,11 +1,8 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-import Editor from 'primevue/editor';
-
-const value = ref('');
-
+import './assets/css/main.css';
+import Home from './components/pages/Home.vue';
 </script>
 
 <template>
-  <Editor v-model="value" editorStyle="min-height: 100vh" />
+  <Home></Home>
 </template>
